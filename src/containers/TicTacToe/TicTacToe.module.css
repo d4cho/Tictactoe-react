@@ -1,0 +1,11 @@
+.Title {
+  text-align: center;
+  font-size: 60px;
+  padding: 10px 0px 10px 0px;
+}
+
+.PlayersTurn {
+  text-align: center;
+  font-size: 48px;
+  padding: 20px 0px 20px 0px;
+}

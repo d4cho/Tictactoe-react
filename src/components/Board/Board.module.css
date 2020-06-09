@@ -1,0 +1,14 @@
+.Row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Tile {
+  background-color: white;
+  border: solid black;
+  width: 500px;
+  height: 120px;
+  text-align: center;
+  font-size: 100px;
+  cursor: pointer;
+}

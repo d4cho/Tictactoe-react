@@ -1,0 +1,10 @@
+.Layout {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  width: 50%;
+  justify-content: center;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+}
