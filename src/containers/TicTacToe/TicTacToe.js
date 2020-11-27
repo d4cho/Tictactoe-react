@@ -34,12 +34,12 @@ class TicTacToe extends Component {
 
   tileClickedHandler = (id, i) => {
     if (this.state.someoneWon) {
-      alert('the game is over nigga. restart to play again');
+      alert('Reset board to play again.');
     } else {
       const updatedBoard = [...this.state.startingBoard];
       let nextPlayer = this.state.playersTurn;
       if (updatedBoard[id][i] !== null) {
-        alert('cant do that nigga');
+        alert('This move is not allowed!');
       } else {
         updatedBoard[id][i] = this.state.playersTurn ? 'X' : 'O';
         nextPlayer = !this.state.playersTurn;
@@ -134,7 +134,7 @@ class TicTacToe extends Component {
   };
 
   versusAIClickHandler = () => {
-    alert('NO, nigga');
+    alert('This mode is not available yet!');
   };
 
   render() {
